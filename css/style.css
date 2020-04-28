@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+
+#view{
+    border: 2px solid black;
+    min-height: 300px;
+    width: 50%;
+    margin:auto;
+    margin-top: 30px;
+    padding: 1rem;
+}
+
+.base-url{
+    font-size: 2rem;
+}
+
+.red{
+    color:red;
+}
+
+.green{
+    color:green;
+}
+
+.overlay{
+
+    background-color : rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    width:100%;
+}
+
+table tr td, table tr th{
+    padding:1rem;
+}
